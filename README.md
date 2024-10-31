@@ -51,12 +51,7 @@ Ensure the following are installed:
 - `requirements.txt`: List of required Python packages for the project.
 - `README.md`: Project documentation, setup instructions, and usage examples.
 
-## Example Usage
 
-1. Start by setting the date range for your analysis.
-2. Select a company from the dropdown list, such as "Apple" or "Google."
-3. Choose the `Close` column for forecasting and set the prediction period to 30 days.
-4. View the combined plot of actual vs. predicted values, or check separate plots for detailed insights.
 
 This tool offers a convenient, interactive way to analyze and forecast stock market trends, making it useful for financial analysts, investors, and enthusiasts.
 
