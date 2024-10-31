@@ -27,3 +27,36 @@ Ensure the following are installed:
    ```bash
    git clone https://github.com/yourusername/stock-market-forecasting.git
    cd stock-market-forecasting
+2. Clone the repository:
+   ```bash
+   pip install -r requirements.txt
+3. Navigate to the project directory in your terminal and run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+## Usage Instructions
+
+1. **Select Date Range**: Choose the start and end dates for the stock data.
+2. **Select Company**: Pick a company from the dropdown menu to view its stock data.
+3. **Choose Forecasting Column**: Select the column you wish to forecast, such as `Close`, `Open`, `High`, or `Low`.
+4. **View Model Summary**: Check the model summary to understand the forecasting details.
+5. **Set Forecasting Days**: Specify the number of days you want to predict into the future.
+6. **View Results**:
+   - **Combined Plot**: View a plot with both actual and predicted stock values.
+   - **Separate Plots**: View individual plots for actual and predicted values.
+
+## Project Structure
+
+- `Streamlit_Main.py`: Main Streamlit application file, handling UI and backend processing.
+- `requirements.txt`: List of required Python packages for the project.
+- `README.md`: Project documentation, setup instructions, and usage examples.
+
+## Example Usage
+
+1. Start by setting the date range for your analysis.
+2. Select a company from the dropdown list, such as "Apple" or "Google."
+3. Choose the `Close` column for forecasting and set the prediction period to 30 days.
+4. View the combined plot of actual vs. predicted values, or check separate plots for detailed insights.
+
+This tool offers a convenient, interactive way to analyze and forecast stock market trends, making it useful for financial analysts, investors, and enthusiasts.
+
